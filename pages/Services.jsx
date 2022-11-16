@@ -4,12 +4,12 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="bg-white h-screen">
+    <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 h-screen ">
       <Navbar />
       <div>
-        <div className="flex flex-1 md:flex-row flex-col justify-between py-20 px-10">
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
-            <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
+        <div className="flex flex-1 md:flex-row flex-col justify-between py-40 px-40">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black ">
+            <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
                   Mining Hashrate
@@ -43,7 +43,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
@@ -78,7 +78,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
@@ -113,7 +113,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
@@ -149,8 +149,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 md:flex-row flex-col justify-between py-20 px-10">
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+        <div className="flex flex-1 md:flex-row flex-col justify-between py-10 px-40">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
@@ -185,7 +185,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
@@ -220,7 +220,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">
@@ -255,7 +255,7 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-lg shadow-indigo-800/95">
+          <div className="h-[300px] w-[300px] bg-black text-white m-5 shadow-xl shadow-black">
             <div className="text-[20px] align-text-bottom px-5 py-3 justify-items-center flex-row   ">
               <h1 className="p-2">
                 <p className="align-middle flex justify-center underline ">

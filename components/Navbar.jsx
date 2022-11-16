@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-black navbar px-20 py-5 text-xl text-white ">
+    <div className="bg-black navbar px-[150px] py-5 text-[25px] text-white">
       <div className="flex flex-row justify-between">
         <Link href="/">
           <div>Crypto Cloud</div>
@@ -11,13 +11,13 @@ const Navbar = () => {
         <div>
           <ul className="flex flex-row justify-evenly">
             <Link href="/About">
-              <li className="mx-2">About</li>
+              <li className="mx-8">About</li>
             </Link>
             <Link href="/Services">
-              <li className="mx-2">Services</li>
+              <li className="mx-8">Services</li>
             </Link>
             <Link href="/Contact">
-              <li className="mx-2">Contact</li>
+              <li className="mx-8">Contact</li>
             </Link>
           </ul>
         </div>
