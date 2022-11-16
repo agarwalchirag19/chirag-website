@@ -13,7 +13,11 @@
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "react-tsparticles": "^2.5.3",
+    "tsparticles": "^2.5.3",
+    "tsparticles-preset-bubbles": "^2.5.3",
+    "tsparticles-preset-stars": "^2.5.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
