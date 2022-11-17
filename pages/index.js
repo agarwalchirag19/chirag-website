@@ -43,7 +43,7 @@ export default function Home() {
         </button>
         <Navbar />
         <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 ">
-          <h1 className="text-2xl text-red-700 px-[200px] py-[613px] ">
+          <h1 className="text-2xl text-red-700 px-[200px] py-[612.5px] ">
             fuyasygfifb
           </h1>
         </div>

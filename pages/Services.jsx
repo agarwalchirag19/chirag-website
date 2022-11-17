@@ -6,19 +6,19 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500">
+      <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[117px]">
         <div className="text-2xl text-red-700 px-[100px] py-[60px] ">
-          <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+          <section class="text-gray-400 bg-gray-900 body-font overflow-hidden ">
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white ">
                   Pricing 😀
                 </h1>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
                   The best pricing you can find is only at Crypto Cloud
                 </p>
-                <div class="flex mx-auto border-2 border-none rounded overflow-hidden mt-6">
-                  <p class="py-1 px-4 bg-red-500 text-white focus:outline-none">
+                <div class="flex mx-auto border-2 border-none rounded overflow-hidden mt-6 ">
+                  <p class="py-1 px-4 bg-red-500 text-white focus:outline-none ">
                     Monthly
                   </p>
                 </div>
@@ -31,7 +31,6 @@ const Contact = () => {
                     </h2>
                     <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                       <span>$30</span>
-                      
                     </h1>
                     <p class="flex items-center text-gray-400 mb-2">
                       <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
@@ -113,7 +112,6 @@ const Contact = () => {
                     </h2>
                     <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                       <span>$75</span>
-                      
                     </h1>
                     <p class="flex items-center text-gray-400 mb-2">
                       <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
@@ -208,7 +206,6 @@ const Contact = () => {
                     </h2>
                     <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                       <span>$100</span>
-                      
                     </h1>
                     <p class="flex items-center text-gray-400 mb-2">
                       <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
@@ -319,7 +316,6 @@ const Contact = () => {
                     </h2>
                     <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
                       <span>$250 </span>
-                      
                     </h1>
                     <p class="flex items-center text-gray-400 mb-2">
                       <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
