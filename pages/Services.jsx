@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[117px]">
+      <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[113.5px]">
         <div className="text-2xl text-red-700 px-[100px] py-[60px] ">
           <section class="text-gray-400 bg-black body-font overflow-hidden ">
             <div class="container px-5 py-24 mx-auto">
