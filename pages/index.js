@@ -7,31 +7,39 @@ export default function Home() {
 
   if (status === "initializing")
     return (
-      <div className="flex text-[40px] flex-1 justify-items-center">
-        Synchronisation with MetaMask ongoing...
+      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center h-screen align-text">
+        <h1 className="bg-black text-white border rounded overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
+          Synchronisation with MetaMask ongoing...
+        </h1>
       </div>
     );
 
   if (status === "unavailable")
     return (
-      <div className="flex text-[40px] flex-1 justify-items-center">
-        MetaMask not available :
+      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center h-screen align-text">
+        <h1 className="bg-black text-white border rounded  overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
+          MetaMask not available :
+        </h1>
       </div>
     );
 
   if (status === "notConnected")
     return (
       <button onClick={connect}>
-        <p className="flex text-[40px] flex-1 justify-items-center">
-          Connect to MetaMask{""}
+        <p className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[67rem] py-[550px] justify-center h-screen align-text">
+          <h1 className="bg-black text-white border rounded overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
+            Connect to MetaMask{""}
+          </h1>
         </p>
       </button>
     );
 
   if (status === "connecting")
     return (
-      <div className="flex text-[40px] flex-1 justify-items-center">
-        Connecting...
+      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center h-screen align-text">
+        <h1 className="bg-black text-white border rounded overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
+          Connecting...
+        </h1>
       </div>
     );
 
@@ -68,7 +76,9 @@ export default function Home() {
               </h1>
             </div>
             <h1 className="text-[2rem] align-text text-center w-[40rem] text-white px-10">
-              <p className="p-3 text-[40px] overflow-hidden transfrom duration-500 hover:scale-90 underline tracking-wider">P R O S </p>
+              <p className="p-3 text-[40px] overflow-hidden transfrom duration-500 hover:scale-90 underline tracking-wider">
+                P R O S{" "}
+              </p>
               <br />
               <p className="overflow-hidden transfrom duration-500 hover:scale-90 p-1">
                 1 . No restrictions on payment
@@ -100,7 +110,9 @@ export default function Home() {
               <br />
             </h1>
             <h1 className="text-[2rem] align-text text-center w-[40rem] text-white px-10 bg-black">
-              <p className="p-3 text-[40px] overflow-hidden transfrom duration-500 hover:scale-90 underline tracking-wider">C O N S </p>
+              <p className="p-3 text-[40px] overflow-hidden transfrom duration-500 hover:scale-90 underline tracking-wider">
+                C O N S{" "}
+              </p>
               <br />
               <p className="overflow-hidden transfrom duration-500 hover:scale-90 p-1">
                 1 . Lack of Awareness/Knowledge
