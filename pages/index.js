@@ -42,7 +42,7 @@ export default function Home() {
           Connected account {account} on chain ID {chainId}
         </button>
         <Navbar />
-        <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[150px]  ">
+        <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[161px]  ">
           <div className="flex flex-row">
             <div className="flex flex-row w-[70rem] overflow-hidden transfrom duration-500 hover:scale-90 p-10 bg-black">
               <h1 className="text-[30px] flex text-center align-text text-white indent-1">

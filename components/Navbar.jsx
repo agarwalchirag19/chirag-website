@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="bg-black navbar px-[150px] py-5 text-[25px] text-white">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between tracking-wider">
         <Link href="/">
           <div>Crypto Cloud</div>
         </Link>
@@ -22,7 +22,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button>log out</button>
+          <button className="text-center tracking-wider cursor-default">
+            WELCOME🙌
+          </button>
         </div>
       </div>
     </div>
