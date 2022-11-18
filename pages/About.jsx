@@ -33,8 +33,8 @@ const About = () => {
                         WELCOME
                       </h2>
                       <p class="leading-relaxed">
-                        Welcome to the most secure website with cheapest crypto mining plans
-                        available to you in 2023 .
+                        Welcome to the most secure website with cheapest crypto
+                        mining plans available to you in 2023 .
                       </p>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ const About = () => {
                       </h2>
                       <p class="leading-relaxed">
                         After you have done the payment via your metmask account
-                        connect to us on your telegram channel . 
+                        connect to us on your telegram channel .
                       </p>
                     </div>
                   </div>
