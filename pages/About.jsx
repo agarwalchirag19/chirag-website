@@ -7,7 +7,7 @@ const About = () => {
       <Navbar />
       <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 py-[18.5px]">
         <div className="text-2xl text-red-700 px-[200px] py-[80px] mt-10">
-          <section class="text-gray-400 bg-gray-900 body-font">
+          <section class="text-gray-400 bg-black body-font">
             <div class="container px-5 py-24 mx-auto flex flex-wrap">
               <div class="flex flex-wrap w-full">
                 <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
