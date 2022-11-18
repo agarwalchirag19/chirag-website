@@ -6,7 +6,9 @@ const Navbar = () => {
     <div className="bg-black navbar px-[150px] py-5 text-[25px] text-white">
       <div className="flex flex-row justify-between tracking-wider">
         <Link href="/">
-          <div>Crypto Cloud</div>
+          <div className="flex flex-row">
+            Crypto Cloud <p className="text-[30px] px-2">☁</p>
+          </div>
         </Link>
         <div>
           <ul className="flex flex-row justify-evenly">
