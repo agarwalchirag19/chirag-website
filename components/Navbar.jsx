@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import login from "./../pages/Contact";
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
               <li className="mx-8">Services</li>
             </Link>
             <Link href="/Contact">
-              <li className="mx-8">Contact</li>
+              <li className="mx-8">Login</li>
             </Link>
           </ul>
         </div>
