@@ -16,11 +16,12 @@ import styles from "../styles/Home.module.css";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <div className='cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500'>
+      
       </div>
-      <Footer />
-      </div>
+      <Footer/>
+    </div>
   );
 };
 
