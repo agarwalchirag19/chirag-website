@@ -50,13 +50,12 @@ function Footer() {
             </li>
           </ul>
         </div>
-        
       </div>
-      <div className="flex flex-col justify-center items-center text-center p-5 bg-gray-500">
-          <h1 className="text-black text-xl font-semibold">
-            © 2021-2023 All rights reserved | CryptoCloud
-          </h1>
-        </div>
+      <div className="flex flex-col justify-center items-center text-center p-5 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500">
+        <h1 className="text-black text-xl font-semibold">
+          © 2021-2023 All rights reserved | CryptoCloud
+        </h1>
+      </div>
     </>
   );
 }
