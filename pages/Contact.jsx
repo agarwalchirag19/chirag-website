@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className='cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 h-screen'>
+      <div className='cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500'>
          <main className="flex flex-row xs:flex-col justify-center align-center py-[20vh] ">
         <div className=" rounded-2xl shadow-2xl flex w-2/3 max-w-4xl bg-white">
           <div className="w-3/5 p-5">
