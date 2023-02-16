@@ -1,56 +1,14 @@
 import Footer from "../components/footer";
 import Login from "./Login";
 import Navbar from "../components/Navbar";
-import { useMetaMask } from "metamask-react";
+import MetaMask from "./metamask";
+
 
 export default function Home() {
-  const { status, connect, account, chainId, ethereum } = useMetaMask();
-
-  if (status === "initializing")
-    return (
-      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center align-text">
-        <h1 className="bg-black text-white border overflow-hidden rounded transfrom hover:bg-green-600 duration-500 hover:scale-90">
-          Synchronisation with MetaMask ongoing...
-        </h1>
-      </div>
-    );
-
-  if (status === "unavailable")
-    return (
-      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center h-screen align-text">
-        <h1 className="bg-black text-white border rounded  overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
-          MetaMask not available :
-        </h1>
-      </div>
-    );
-
-  if (status === "notConnected")
-    return (
-      <button onClick={connect}>
-        <p className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[67rem] py-[550px] justify-center h-screen align-text">
-          <h1 className="bg-black text-white border rounded overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
-            Connect to MetaMask{""}
-          </h1>
-        </p>
-      </button>
-    );
-
-  if (status === "connecting")
-    return (
-      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center h-screen align-text">
-        <h1 className="bg-black text-white border rounded overflow-hidden transfrom hover:bg-green-600 duration-500 hover:scale-90">
-          Connecting...
-        </h1>
-      </div>
-    );
-
-  if (status == "connected")
     return (
       <div id="connected">
-        <button id="none">
-          Connected account {account} on chain ID {chainId}
-        </button>
         <Navbar />
+        <MetaMask/>
         <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[161px]  ">
           <div className="flex flex-row">
             <div className="flex flex-row w-[70rem] overflow-hidden transfrom duration-500 hover:scale-90 p-10 bg-black">

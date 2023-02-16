@@ -1,11 +1,14 @@
 import { FaEthereum } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import React from "react";
+import makepayment from './metamask';
+import MetaMask from "./metamask";
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
+      <MetaMask/>
       <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[100px] py-[113.5px]">
         <div className="text-2xl text-red-700 px-[100px] py-[60px] ">
           <section className="text-gray-400 bg-black body-font ">
