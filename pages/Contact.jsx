@@ -6,6 +6,7 @@ import {
   FaRegEnvelope,
 } from "react-icons/fa";
 
+import Footer from "../components/Footer";
 import Head from "next/head";
 import Image from "next/image";
 import { MdLockOutline } from "react-icons/md";
@@ -108,9 +109,10 @@ const Contact = () => {
           </div>
           {/*sign up section*/}
         </div>
-      </main>
+        </main>
+        
       </div>
-     
+     <Footer />
     </div>
   );
 };

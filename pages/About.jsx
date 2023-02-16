@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import React from "react";
 
@@ -10,9 +11,12 @@ const About = () => {
           <section className="text-gray-400 bg-black body-font">
             <div className="container px-5 py-24 mx-auto flex flex-wrap">
               <div className="flex flex-wrap w-full">
-              <div className="text-8xl px-[200px] text-white py-[250px]"><h1>GETTING <br/> STARTED</h1></div>
+                <div className="text-8xl px-[200px] text-white py-[250px]">
+                  <h1>
+                    GETTING <br /> STARTED
+                  </h1>
+                </div>
                 <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
-                  
                   <div className="flex relative pb-12">
                     <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>

@@ -28,9 +28,12 @@ const Navbar = () => {
           <button className="text-center tracking-wider cursor-default">
             WELCOME🙌
           </button>
+          </div>
         </div>
-      </div>
-    </div>
+      <div>
+   </div>
+  </div>
+    
   );
 };
 

@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Login from "./Login";
 import Navbar from "../components/Navbar";
 import { useMetaMask } from "metamask-react";
@@ -145,6 +146,7 @@ export default function Home() {
             </h1>
           </div>
         </div>
+        <Footer/>
       </div>
     );
 
