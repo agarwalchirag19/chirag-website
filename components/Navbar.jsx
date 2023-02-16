@@ -20,7 +20,7 @@ const Navbar = () => {
               <li className="mx-8">Services</li>
             </Link>
             <Link href="/Contact">
-              <li className="mx-8">Login</li>
+              <li className="mx-8">Contact Us</li>
             </Link>
           </ul>
         </div>

@@ -29,7 +29,12 @@ function Footer() {
         </ul>
       </div>
       <div className='p-5'>
-
+      <ul>
+        <p className='text-gray-800 font-bold text-2xl pb-4'>Company</p>
+        <li className='text-gray-500 text-md pb-2 font-semibold hover-text-blue-600'>About</li>
+        <li className='text-gray-500 text-md pb-2 font-semibold hover-text-blue-600'>Services</li>
+        <li className='text-gray-500 text-md pb-2 font-semibold hover-text-blue-600'>Contact Us</li>
+      </ul>
       </div>
     </div>
   );
