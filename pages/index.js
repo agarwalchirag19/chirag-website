@@ -8,7 +8,7 @@ export default function Home() {
 
   if (status === "initializing")
     return (
-      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 px-[66rem] py-[550px] justify-center align-text">
+      <div className="text-[40px] bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 justify-center align-text">
         <h1 className="bg-black text-white border overflow-hidden rounded transfrom hover:bg-green-600 duration-500 hover:scale-90">
           Synchronisation with MetaMask ongoing...
         </h1>

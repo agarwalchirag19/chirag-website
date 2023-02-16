@@ -157,6 +157,7 @@ const About = () => {
           </section>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
