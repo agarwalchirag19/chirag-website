@@ -24,10 +24,10 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div>
-          <button className="text-center tracking-wider cursor-default">
-            WELCOME🙌
-          </button>
+          <div>
+            <button className="text-center tracking-wider cursor-default">
+              WELCOME🙌
+            </button>
           </div>
         </div>
       <div>
