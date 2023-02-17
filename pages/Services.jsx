@@ -1,7 +1,8 @@
 import { FaEthereum } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import React from "react";
-import Footer from "../components/Footer";
+import makepayment from './payment';
+import MetaMask from "./metamask";
 
 const Contact = () => {
   return (
@@ -81,7 +82,7 @@ const Contact = () => {
                       </span>
                       Octopus Algo : 20 M/Hs
                     </p>
-                    <button className="flex items-center mt-auto text-white bg-blue-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-700 rounded ">
+                    <button onClick={makepayment} className="flex items-center mt-auto text-white bg-blue-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-700 rounded ">
                       0.013
                       <span className="text-lg ml-1 font-normal text-gray-400">
                         <span>
