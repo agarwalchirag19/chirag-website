@@ -25,7 +25,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button className="text-center tracking-wider cursor-default">
+          <button className="text-center animate-bounce tracking-wider cursor-default">
             WELCOME🙌
           </button>
           </div>
