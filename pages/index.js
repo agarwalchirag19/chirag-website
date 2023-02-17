@@ -146,7 +146,9 @@ export default function Home() {
             </h1>
           </div>
         </div>
+        <div className='text-black'>
         <Footer/>
+        </div>
       </div>
     );
 

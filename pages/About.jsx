@@ -1,27 +1,65 @@
 import Footer from "../components/Footer";
+import Image from "next/image";
 import Navbar from "../components/Navbar";
 import React from "react";
+import fifth from "../images/1.jpg";
+import first from "../images/2.jpg";
+import fourth from "../images/3.jpg";
+import second from "../images/4.jpg";
+import third from "../images/5.jpg";
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 py-[15px]">
-        <div className="text-2xl text-red-700 px-[200px] py-[80px] mt-10">
+      <div className="cursor-default bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-300 py-[15px]">
+        <div className="text-2xl text-red-700 px-[200px] py-[20px]">
           <section className="text-gray-400 bg-black body-font">
-            <div className="container px-5 py-24 mx-auto flex flex-wrap">
-              <div className="flex flex-wrap w-full">
-                <div className="text-8xl px-[200px] text-white py-[250px]">
-                  <h1>
-                    GETTING <br /> STARTED
-                  </h1>
+            <div className="container px-5 py-24 mx-auto flex flex-row">
+              <div className="flex flex-row w-full">
+                <div className="text-8xl px-[100px] grid grid-cols-2 text-white py-[80px]">
+                  <Image
+                    src={first}
+                    width={300}
+                    height={300}
+                    alt="image"
+                    className='px-5 py-5'
+                  />
+                  <Image
+                    src={second}
+                    width={300}
+                    height={300}
+                    alt="image"
+                    className='px-5 py-5'
+                  />
+                  <Image
+                    src={third}
+                    width={300}
+                    height={300}
+                    alt="image"
+                    className='px-5 py-5'
+                  />
+                  <Image
+                    src={fourth}
+                    width={300}
+                    height={300}
+                    alt="image"
+                    className='px-5 py-5'
+                  />
+                  <Image
+                    src={fifth}
+                    width={300}
+                    height={300}
+                    alt="image"
+                    className='px-5 py-5'
+                  />
                 </div>
                 <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
                   <div className="flex relative pb-12">
                     <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
                     </div>
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -48,7 +86,7 @@ const About = () => {
                     <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
                     </div>
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -75,7 +113,7 @@ const About = () => {
                     <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
                     </div>
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -103,7 +141,7 @@ const About = () => {
                     <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                       <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
                     </div>
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -128,7 +166,7 @@ const About = () => {
                     </div>
                   </div>
                   <div className="flex relative">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 inline-flex items-center justify-center text-white relative z-10">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -147,7 +185,7 @@ const About = () => {
                         FINISH
                       </h2>
                       <p className="leading-relaxed">
-                        Check your mail id for Mining data stats
+                        Connect to us via our telegram channel for further details and to start mining check your hiveos application via the.hiveos.farm
                       </p>
                     </div>
                   </div>
@@ -157,7 +195,7 @@ const About = () => {
           </section>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
